@@ -1,0 +1,3 @@
+"D:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\RW_CPPS.dir/objects.a
+D:\mingw64\bin\ar.exe cr CMakeFiles\RW_CPPS.dir/objects.a @CMakeFiles\RW_CPPS.dir\objects1.rsp
+D:\mingw64\bin\g++.exe  -static -g -static-libgcc -static-libstdc++ -Wl,--whole-archive CMakeFiles\RW_CPPS.dir/objects.a -Wl,--no-whole-archive -o RW_CPPS.exe -Wl,--out-implib,libRW_CPPS.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\RW_CPPS.dir\linklibs.rsp
